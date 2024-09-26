@@ -910,8 +910,9 @@
 <new Element> = <HTMLPictureElement>;
 
 #HTMLAllCollection
+#fuzzdiff excludes it because it's too much to diff the number of elements
 <new long> = <HTMLAllCollection>.length;
-<new Element> = <HTMLAllCollection id=1>[<int min=0 max=100>%<HTMLAllCollection id=1>.length];
+#<new Element> = <HTMLAllCollection id=1>[<int min=0 max=100>%<HTMLAllCollection id=1>.length];
 
 #HTMLDataListElement
 !extends HTMLDataListElement Element
@@ -2228,7 +2229,7 @@
 <new FontFaceSetLoadStatus> = <FontFaceSet>.status;
 <FontFaceSet>.add(<FontFace>);
 #TODO: check
-<new boolean> = <FontFaceSet>.check(<DOMString>); 
+<new boolean> = <FontFaceSet>.check(<DOMString>);
 <new boolean> = <FontFaceSet>.check(<DOMString>,<DOMString>);
 <FontFaceSet>.clear();
 <FontFaceSet>.delete(<FontFace>);
@@ -4479,47 +4480,47 @@
 
 <CSSStyleDeclaration>.setProperty("<cssvar>", <string_cssvalue>);
 <CSSStyleDeclaration>.setProperty(<string_cssproperty>, "var(<cssvar>)");
-
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
-document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#fuzzdiff excludes it because it's too much to diff the number of elements
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
+#document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
 
 <new CSSStyleDeclaration> = <Element>.style;
 <new CSSStyleDeclaration> = <Element>.style;
